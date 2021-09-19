@@ -1,3 +1,5 @@
+#ifndef constants
+#define constants
 #include <string>
 
 //default files to read and write data
@@ -18,3 +20,5 @@ enum SORT_ORDER { PROCESS_NUMBER, CPU_TIME, START_TIME };
 struct process{	int process_number=UNINITIALIZED;
 				int cpu_time=UNINITIALIZED;
 				int start_time=UNINITIALIZED;};
+
+#endif

@@ -12,7 +12,7 @@ fileio.o: ../fileio/fileio.cpp ../includes/fileio.h ../includes/constants.h
 utils.o: ../utils/utils.cpp ../includes/utils.h ../includes/constants.h
 	g++ $(CFLAGS) -c ../utils/utils.cpp
 
-proj_refactor_file.o: proj_refactor_file.cpp	
+proj_refactor_file.o: proj_refactor_file.cpp
 	g++ $(CFLAGS) -c proj_refactor_file.cpp	
 
 #type 'make clean' to remove myexe and all .o files	
