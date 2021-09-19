@@ -8,9 +8,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "constants.h"
-#include "fileio.h"
-#include "utils.h"
+#include "../includes/constants.h"
+#include "../includes/fileio.h"
+#include "../includes/utils.h"
 
 int main() {
 	std::vector<process> myProcesses;

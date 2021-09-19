@@ -1,6 +1,6 @@
 #include <vector>
-#include "utils.h"
-#include "constants.h"
+#include "../includes/utils.h"
+#include "../includes/constants.h"
 
 //sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 //returns nothing

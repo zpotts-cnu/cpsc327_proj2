@@ -1,6 +1,6 @@
 #include <vector>
 #include <string>
-#include "fileio.h"
+#include "../includes/fileio.h"
 
 //attempt to open file 'filename' and read in all data
 //returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
